@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'YourFontName'; /*a name to be used later*/
+    src: url('http://domain.example/fonts/font.ttf'); /*URL to font*/
+}
+.classname {
+    font-family: 'YourFontName';
+}
+
+
+/*body{font-family: 'Times New Roman', Times, serif;}
