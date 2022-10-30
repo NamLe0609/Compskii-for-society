@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
     <title>Compski for Soc - mainpage</title>
-
+    
     <!-- Bootstrap -->
     <style>
       body { background: #F1FAEE !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
@@ -14,14 +15,16 @@
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/baseWebsite.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div id="navbar-placeholder"></div>
+    <!--Code used from this article: https://stackoverflow.com/questions/31954089/how-can-i-reuse-a-navigation-bar-on-multiple-pages-->
     <script>
       $(function(){
         $("#navbar-placeholder").load("navbar.html");
       });
     </script>
+    <!--End of borrowed code-->
+  </head>
+  <body>
+    <div id="navbar-placeholder"></div>
     <div class="container text-center">
       <div class="row">
         <div class="col">
