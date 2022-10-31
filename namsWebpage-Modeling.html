@@ -64,14 +64,18 @@
           <p class="text-secondary">A meme of shrek with and without RTX on</p>
           <p>
             Ray tracing is a very trendy and new technology which most graphics card designers have started to implement as a feature in their products. An example of this is Nvidia's RTX,
-            abbreviated for ray tracing texcel eXtreme, which is being used to showcase the limits of game graphics. With RTX, even games such as Minecraft can turn from cartoon-ish looking
-            to looking like real life. 
+            abbreviated for ray tracing texcel eXtreme, which is being used to showcase the limits of game graphics. With RTX, even games such as Minecraft can turn from having a cartoon-ish look
+            to almost mimicking real life. 
           </p>
           <p>
             Ray tracing works by simulating virtual light particles coming from a given light source. These light particles will then reflect and refract differently depending on the material,
-            and the intensity will vary based on how luminous the light source is (the larger the light source, the more particles will be present and the greater processing power will be needed).
-            Before the age of modern computing, such a feat would have been left to supercomputers to compute, but now given the massive leap in computing power and storage, alongside smart algorithms, 
-            a normal home laptop can, given a good enough graphics card, render these scenes easily. In games, where the physics is the same as real life and 
+            and the intensity will vary based on how luminous the light source is (the larger the light source, the more particles will be present and the greater processing power will be needed). 
+            Simulating one particle of light is might be a simple task, but when scaling this task up to millions of particles and given the time constraint (in an interactive game, these particles will
+            have to be simulated each frame), the amount processing power necessary will be massive.Before the age of modern computing, such a feat would have been left to supercomputers to compute,
+            but now given the massive leap in computing power and storage, alongside smart algorithms, a normal home laptop can, given a good enough graphics card, render these scenes easily. 
+            In games, where only a few variables needs to be considered, this task is reasonable to be ran on a personal albeit strong computer, but when dealing with general relativistic ray tracing, 
+            a modern day (2022) supercomputer will be needed to simulate these light particles as things such as curvature of space time, magnetic fields, attributes of a relativistic particles,... needs
+            to be included in the calculations
           </p>
           <hr>
           <p>
