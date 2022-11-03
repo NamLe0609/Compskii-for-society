@@ -11,6 +11,8 @@ This project is for a formative assignment to demonstrate our understanding of u
   </kbd>
 </div> -->
 
+## [Link to website](https://shee69.github.io/Compskii-for-society/)
+
 ## Features
 
 - Webpages outlining the applications of computing that have made a positive impact on society
